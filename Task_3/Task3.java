@@ -1,9 +1,7 @@
 package JavaHomeWork1.Task_3;
 // Написать программу вычисления n-ого треугольного числа.
 // (n * (n+1))/2
-
 import java.util.Scanner;
-
 public class Task3 {
     public static void main(String[] args) {
 
