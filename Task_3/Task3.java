@@ -1,4 +1,4 @@
-package JavaHomeWork1.Task_3;
+package Task_3;
 // Написать программу вычисления n-ого треугольного числа.
 // (n * (n+1))/2
 import java.util.Scanner;

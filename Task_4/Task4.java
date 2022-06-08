@@ -32,4 +32,4 @@ public class Task4 {
     //     move(pos1,pos3);
     //     hanio(n-1,pos2,pos1,pos3);
     //     }
-    //     }
+         
