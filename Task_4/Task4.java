@@ -1,61 +1,77 @@
 // package Task_4;
 
-// // в зависимости от того, где он меньше. Тогда, чтобы решить 
-// // головоломку с чётным количеством дисков,
-// //  надо многократно повторять действия: 1-2, 1-3, 2-3.
-// //  Если число дисков нечётно — 1-3, 1-2, 2-3.
+// public class Muve {
+//     // private int n;
+//     // private String Start1;
+//     // private String Spair2;
+//     // private String Finish3;
+//      int n;
+//      String Start1;
+//      String Spair2;
+//      String Finish3;
 
-
-// // ToDOO Завершить после разбора 4ой лекции!! Она важнеее!!
-// public class Task4 {
-
-//     public static void main(String[] args) {
-//         Muve an = new Muve(3);  
-//         // an.setN(3);
-//         an.getN();
-//         System.out.println("Колец => " +an.getN());
-
-//         Muve bS = new Muve(1);
-//         bS.getN();
-//         System.out.println("Стартовый шпиль => " +bS.getN());
-
-//         Muve cF = new Muve(2);
-//         cF.getN();
-//         System.out.println("Финишный шпиль => " +cF.getN());
-
-//         // Muve.MuveS(an,bS,cF);
-        
+//             //арг       count        spair1             spair2                spair3
+//     public Muve(int valueN, String valueStart, String valueTemp, String valueFinish) {
+//         this.n = valueN; 
+//         this.Start1 = valueStart;
+//         this.Spair2 = valueTemp;
+//         this.Finish3 = valueFinish;
 //     }
-// }
-    
-//     // static double  MuveS(Muve an, Muve bS ,Muve cF) {
-//     //     if(an.getN()==1){
-//     //         return MuveS(an, bS, cF);
-//     //     } 
-//         // else {
-//         //     return TempOritMo(6, 3, 2);
-            
-//         // }
 
+   
+//     // public Muve( var value) {
+//     //     this(3,1,2,3);
         
-    
-//     // static double TempOritMo(int Temp1, int bS, int cF){
-//     //     int tmp = 0;
-//     //     tmp = (Temp1 - bS- cF);
-//     //     return tmp;
 //     // }
-//         // if (n == 1){
-//             // System.out.printf("%d ", n , Start1 ,  Finish1);
-//         // } 
-//         // else Muve(n-1, Start, Finish1); {
-//             // System.out.printf("%d " + "%d " + "%d ", n,  Start1, Finish1);
-//         //     int Temp1 =  6 - Start1 - Finish1;
-//         //     Muve(n-1, Temp1, Finish1);
-//         // }
-         
+   
+
+//     public Muve(var  value) {
+//         this(value);
+//     }
+//     public Muve() {
+//         this(3,2,1,3);
+//     }
+
+
+//     // public static void MuveS(Muve an, Muve bS, Muve cF) {
+//     // }
+
+//     // public Muve(int value){
+//     //     this(value,value,value);
+//     // }
     
+//     public int getN(){
+//         return n;
+//     }
+//     public String getStart(){
+//         return Start1;
+//     }
+//     public String getSpairTemp(){
+//         return Spair2 ;
+//     }
+//     public String getFinish(){
+//         return Finish3;
+//     }
+
+//     public void setN(int value){
+//         this.n = value;
+//     }
+//     public void setStart(String value){
+//         this.Start1 = value;
+//     }
+//     public void setSpairTemp(String value){
+//         this.Spair2 = value;
+//     }
+//     public void setFinish(String value){
+//         this.Finish3 = value;
+//     }
+   
+
 
     
+
+
 
   
+// }    
 
