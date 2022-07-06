@@ -1,0 +1,7 @@
+package PrinterAll;
+class Printer {
+
+   
+       
+    
+}
